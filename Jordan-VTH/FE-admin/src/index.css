@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+  body {
+    background: #ffffff;
+  }
+  h1 {
+    @apply text-xl font-medium capitalize;
+  }
+}
+
+:root {
+  
+}
+
+.link {
+  @apply p-2.5 flex rounded-md gap-6 items-center md:cursor-pointer cursor-default duration-300 font-medium;
+}
+
+.active {
+  @apply bg-blue-100 text-blue-600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  cursor: pointer;
+  /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(229, 231, 235, var(--bg-opacity));
+  cursor: pointer;
+  /*background: red;*/
+}
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background-color: #85888a;
+  /* outline: 1px solid slategrey; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.icon-hover:hover {
+  transition: 0.06s;
+  /* scale: 1.1; */
+  color: #1976d2;
+}
+
+.delete-hover:hover {
+  color: rgb(236, 74, 74);
+  transition: 0.06s;
+}
+
+.blue-hover:hover {
+  color: #1976d2;
+  transition: 0.06s;
+}
+
+.yellow-hover:hover {
+  color: #ffcd4b;
+  transition: 0.06s;
+}
+
+.ant-btn.ant-btn-sm {
+  color: black;
+}
+
+/* color ok button ant modal */
+.ant-modal-footer .ant-btn-primary {
+  background-color: #1976d2; /* Replace with your desired background color */
+  border-color: #1976d2; /* Replace with your desired border color */
+  color: #fff; /* Text color for the button */
+}
+
+.ant-modal-footer .ant-btn-primary:hover {
+  background-color: #1976d2; /* Replace with your desired hover background color */
+  border-color: #1976d2; /* Replace with your desired hover border color */
+  color: #fff; /* Text color for the button on hover */
+}
+
+.selectedKichCo {
+  border: 2px solid yellow;
+}
+
+/* ToolTip */
+.discount-tag {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #d80032;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.thuy-hien {
+  overflow: hidden;
+}
+
+.container-input {
+  position: relative;
+}
+
+.input {
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  border-radius: 9999px;
+  border: solid 1px #a5a5a5;
+  outline: none;
+  font-size: 14px;
+}
+
+.container-input svg {
+  position: absolute;
+  width: 15px;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+
+.input:hover {
+  background: #e4e6e7;
+}
+
+.input:focus {
+  background: #e4e6e7;
+}
