@@ -20,6 +20,6 @@ To run the frontend projects locally, follow these steps:
      ```bash
      npm start
 
-## Explore my front-end projects deployed on Vercel:
+## Explore my React projects deployed on Vercel:
 - Project-hoobank: https://project-hoobank-rho.vercel.app/
 - Ecommerce-shop-react-app: https://ecommerce-shop-react-app-iota.vercel.app/
