@@ -5,7 +5,7 @@ To run the frontend projects locally, follow these steps:
 
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/DanGale/nguyenvanhoi-front-end-project.git
+   git clone https://github.com/DanGale/react-project.git
    cd your-repo
    
 2. **Install Dependencies:**
