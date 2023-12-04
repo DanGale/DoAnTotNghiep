@@ -21,9 +21,5 @@ To run the frontend projects locally, follow these steps:
      npm start
 
 ## Explore my front-end projects deployed on Vercel:
-- Shoes-websit: https://shoes-websit.vercel.app/
 - Project-hoobank: https://project-hoobank-rho.vercel.app/
-- Heling: https://heling-gold.vercel.app/
-- Jalan: https://jalan-one.vercel.app/
-- Adminhub: https://adminhub-five.vercel.app/
 - Ecommerce-shop-react-app: https://ecommerce-shop-react-app-iota.vercel.app/
